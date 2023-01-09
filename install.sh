@@ -22,6 +22,9 @@ sudo apt install git &&
 # neovim
 sudo apt install neovim &&
 
+# neofetch
+sudo apt install neofetch &&
+
 # chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &&
 sudo apt install ./google-chrome-stable_current_amd64.deb &&
