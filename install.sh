@@ -65,6 +65,10 @@ source ~/.zshrc &&
 nvm install 18.12.1 && 
 nvm alias default 18.12.1 &&
 
+# yarn and pnpm
+npm i -g yarn &&
+npm i -g pnpm &&
+
 # nerd fonts
 git clone https://github.com/ryanoasis/nerd-fonts.git && 
 cd nerd-fonts && 
