@@ -14,30 +14,30 @@ mkdir ~/temp &&
 cd ~/temp &&
 
 # snap
-sudo apt install snapd &&
+sudo apt install snapd -y &&
  
 # git
-sudo apt install git &&
+sudo apt install git -y &&
 
 # neovim
-sudo apt install neovim &&
+sudo apt install neovim -y &&
 
 # neofetch
-sudo apt install neofetch &&
+sudo apt install neofetch -y &&
 
 # chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb &&
 sudo apt install ./google-chrome-stable_current_amd64.deb &&
 
 
-# remove firefox
-sudo apt purge firefox && 
-
 # compton
-sudo apt compton &&
+sudo apt install compton -y &&
 
 # slack
 sudo snap install slack &&
+
+# spotify
+sudo snap install spotify &&
 
 # vscode
 sudo apt install software-properties-common apt-transport-https wget &&
@@ -69,14 +69,14 @@ nvm alias default 18.12.1 &&
 npm i -g yarn &&
 npm i -g pnpm &&
 
-# nerd fonts
-git clone https://github.com/ryanoasis/nerd-fonts.git && 
-cd nerd-fonts && 
-sudo ./install.sh &&
-
 # powerlevel10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k &&
 # change ZSH_THEME="curobbyrussell" to ZSH_THEME="powerlevel10k/powerlevel10k"
+
+
+# alacritty
+sudo apt install alacritty
+# sudo cp ~/www/linux/dotfiles/.config/alacritty.yml alacritty file to ~/.config/alacritty/
 
 # generate ssh
 ssh keygen -C 'grxgabriel@gmail.com' && 

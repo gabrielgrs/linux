@@ -1,0 +1,81 @@
+items:
+  - colors:
+      name: 3024 (dark)
+      author: Chris Kempson
+      primary:
+        background: "#090300"
+        foreground: "#a5a2a2"
+      cursor:
+        text: "#090300"
+        cursor: "#a5a2a2"
+      normal:
+        black: "#090300"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#a5a2a2"
+      bright:
+        black: "#5c5855"
+        red: "#db2d20"
+        green: "#01a252"
+        yellow: "#fded02"
+        blue: "#01a0e4"
+        magenta: "#a16a94"
+        cyan: "#b5e4f4"
+        white: "#f7f7f7"
+  - theme: 3024.dark
+colors:
+  name: Atelierlakeside (dark)
+  author: Chris Kempson
+  primary:
+    background: "#161b1d"
+    foreground: "#7ea2b4"
+  cursor:
+    text: "#161b1d"
+    cursor: "#7ea2b4"
+  normal:
+    black: "#161b1d"
+    red: "#d22d72"
+    green: "#568c3b"
+    yellow: "#8a8a0f"
+    blue: "#257fad"
+    magenta: "#5d5db1"
+    cyan: "#2d8f6f"
+    white: "#7ea2b4"
+  bright:
+    black: "#5a7b8c"
+    red: "#d22d72"
+    green: "#568c3b"
+    yellow: "#8a8a0f"
+    blue: "#257fad"
+    magenta: "#5d5db1"
+    cyan: "#2d8f6f"
+    white: "#ebf8ff"
+theme: Atelierlakeside.dark
+
+window:
+  opacity: 0.7
+  decorations: none
+  padding:
+    x: 12
+    y: 12
+
+font:
+  normal:
+    family: JetBrains Mono
+    style: Regular
+
+  # Bold font face
+  bold:
+    family: JetBrains Mono
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: JetBrains Mono
+    style: Italic
+
+  size: 12
