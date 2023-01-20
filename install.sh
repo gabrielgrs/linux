@@ -19,8 +19,16 @@ sudo apt install snapd -y &&
 # git
 sudo apt install git -y &&
 
+# cedilha
+wget -q https://raw.githubusercontent.com/marcopaganini/gnome-cedilla-fix/master/fix-cedilla -O fix-cedilla
+chmod 755 fix-cedilla
+./fix-cedilla
+
 # neovim
-sudo apt install neovim -y &&
+sudo apt install software-properties-common &&
+sudo add-repository ppa:neovim-ppa/stable &&
+sudo apt update &&
+sudo apt install neovim &&
 
 # neofetch
 sudo apt install neofetch -y &&
@@ -73,10 +81,11 @@ npm i -g pnpm &&
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k &&
 # change ZSH_THEME="curobbyrussell" to ZSH_THEME="powerlevel10k/powerlevel10k"
 
+# TODO: download jet brains mono nerd font
 
 # alacritty
 sudo apt install alacritty
-# sudo cp ~/www/linux/dotfiles/.config/alacritty.yml alacritty file to ~/.config/alacritty/
+sudo cp ~/www/linux/dotfiles/.config/alacritty.yml ~/.config/alacritty/
 
 # generate ssh
 ssh keygen -C 'grxgabriel@gmail.com' && 

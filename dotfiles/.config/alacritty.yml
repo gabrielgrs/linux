@@ -28,33 +28,38 @@ items:
         white: "#f7f7f7"
   - theme: 3024.dark
 colors:
-  name: Atelierlakeside (dark)
-  author: Chris Kempson
   primary:
-    background: "#161b1d"
-    foreground: "#7ea2b4"
+    background: "0x1E1D2F"
+    foreground: "0xD9E0EE"
+
   cursor:
-    text: "#161b1d"
-    cursor: "#7ea2b4"
+    text: "0x1E1D2F"
+    cursor: "0xF5E0DC"
+
   normal:
-    black: "#161b1d"
-    red: "#d22d72"
-    green: "#568c3b"
-    yellow: "#8a8a0f"
-    blue: "#257fad"
-    magenta: "#5d5db1"
-    cyan: "#2d8f6f"
-    white: "#7ea2b4"
+    black: "0x6E6C7E"
+    red: "0xF28FAD"
+    green: "0xABE9B3"
+    yellow: "0xFAE3B0"
+    blue: "0x96CDFB"
+    magenta: "0xF5C2E7"
+    cyan: "0x89DCEB"
+    white: "0xD9E0EE"
+
   bright:
-    black: "#5a7b8c"
-    red: "#d22d72"
-    green: "#568c3b"
-    yellow: "#8a8a0f"
-    blue: "#257fad"
-    magenta: "#5d5db1"
-    cyan: "#2d8f6f"
-    white: "#ebf8ff"
-theme: Atelierlakeside.dark
+    black: "0x988BA2"
+    red: "0xF28FAD"
+    green: "0xABE9B3"
+    yellow: "0xFAE3B0"
+    blue: "0x96CDFB"
+    magenta: "0xF5C2E7"
+    cyan: "0x89DCEB"
+    white: "0xD9E0EE"
+
+  indexed_colors:
+    - { index: 16, color: "0xF8BD96" }
+    - { index: 17, color: "0xF5E0DC" }
+theme: Catppuccin
 
 window:
   opacity: 0.7
@@ -65,17 +70,17 @@ window:
 
 font:
   normal:
-    family: JetBrains Mono
+    family: JetBrains Mono Nerd Font
     style: Regular
 
   # Bold font face
   bold:
-    family: JetBrains Mono
+    family: JetBrains Mono Nerd Font
     style: Bold
 
   # Italic font face
   italic:
-    family: JetBrains Mono
+    family: JetBrains Mono Nerd Font
     style: Italic
 
   size: 12
