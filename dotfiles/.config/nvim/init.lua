@@ -1,0 +1,8 @@
+require('settings')
+require('plugins')
+require('mappings')
+require('utils')
+require('plugins.p-mason')
+require('plugins.p-lsp')
+require('plugins.p-lspkind')
+require('plugins.p-cmp')
